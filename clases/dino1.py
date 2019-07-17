@@ -19,3 +19,19 @@ class Dino:
 pepe = Dino("pepito", "verde",4,"macho alfa pecho peludo")
 print(pepe.nombre)
 pepe.saludar()
+
+class perro:
+
+
+    def __init__(self, un_nombre, una_raza, patas=4):
+        self.nombre = un_nombre
+        self.raza = una_raza
+        self.patas = patas
+        print("gauuu")
+
+    def ladrar(self):
+        print("pupi", self.nombre, "peluche", self.raza, ("y tiene" self.patas)
+
+
+
+        print("pupi", self.nombre, "peluche", self.raza, ("y tiene" self.patas)
